@@ -9,8 +9,8 @@ import router from './router'
 // Vue.use(Vant)
 // 全局引入Vant
 
-import { Button, Row, Col } from 'vant'
-Vue.use(Button).use(Row).use(Col)
+import { Button, Row, Col, Swipe, SwipeItem } from 'vant'
+Vue.use(Button).use(Row).use(Col).use(Swipe).use(SwipeItem)
 
 Vue.config.productionTip = false
 
